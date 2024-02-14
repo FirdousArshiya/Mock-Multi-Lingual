@@ -3,12 +3,20 @@
   list-style: none;
   list-style-type: none;
 }
-.active-tab-btn {
-  background-color: #db1c48;
-}
+
 .tab-btn {
   border-color: #db1c48;
   background-color: #ffffff;
-  color: black;
-  border-radius: 10px;
+  color: #db1c48;
+  border-radius: 14px;
+  font-family: 'Roboto';
+  font-size: 14px;
+  cursor: pointer;
+  width: 90px;
+  padding: 7px;
+}
+
+.active-tab-btn {
+  background-color: #db1c48;
+  color: #ffffff;
 }
